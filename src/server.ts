@@ -11,6 +11,13 @@ class severBootstrap{
         this.app.use(express.urlencoded({extended:true}))
         this.app.use(morgan('dev'))
         this.app.use(cors())
+
+        this.app.get('/hola', function (req, res) {
+            res.status(200).json({message:"Hola mundo"
+            });
+            
+        });
+          
         this.listen()
     }
 
