@@ -4,7 +4,7 @@ import cors from 'cors'
 
 class severBootstrap{
     public app:express.Application=express();
-    private port:number=8000;
+    private port:number=3000;
 
     constructor(){
         this.app.use(express.json())

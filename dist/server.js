@@ -9,7 +9,7 @@ const cors_1 = __importDefault(require("cors"));
 class severBootstrap {
     constructor() {
         this.app = (0, express_1.default)();
-        this.port = 8000;
+        this.port = 3000;
         this.app.use(express_1.default.json());
         this.app.use(express_1.default.urlencoded({ extended: true }));
         this.app.use((0, morgan_1.default)('dev'));
