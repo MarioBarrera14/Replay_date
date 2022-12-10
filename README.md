@@ -1,12 +1,6 @@
 # Replay_date
 
-# Curso de NodeJS con TypeScript y TypeORM
-
-## Mira el curso completo [aqui](https://www.youtube.com/c/codrrdev)
-
-En este curso aprenderas como generar una API REST compleja con NodeJS utilizando como lenguage core `TypeScript` y `TypeORM` como ORM SQL.
-
-## Tecnologias a aplicar:
+# Tecnologias a aplicar:
 
 - POO.
 - Docker Compose como base de datos.
